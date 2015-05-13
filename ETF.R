@@ -2,10 +2,6 @@
 
 #Data Analysis Project 
 
-#Please set directory to the project files location 
-
-#ETF.R 
-
 #Packages
 library(quantmod)
 library(PerformanceAnalytics)
@@ -17,7 +13,7 @@ ETF_Data <- new.env()
 sDate <- as.Date("2007-09-04") #Start Date
 eDate <- as.Date("2014-09-02") #End   Date
 
-#Stock symbols
+#Sample Stock symbols
 ticker_symbol <- c("IVW","JKE","QQQ","SPYG","VUG" )
 
 #Load functions into memory 
